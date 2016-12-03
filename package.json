@@ -1,5 +1,5 @@
 {
-  "name": "spdy-push",
+  "name": "@wyze/spdy-push",
   "description": "SPDY Push helper",
   "version": "1.0.2",
   "author": {
@@ -9,7 +9,10 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": "jshttp/spdy-push",
+  "repository": "wyze/spdy-push",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "any-promise": "^1.1.0",
     "bytes": "^2.1.0",
